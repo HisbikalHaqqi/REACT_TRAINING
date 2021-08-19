@@ -1,0 +1,9 @@
+.navbar {
+    padding: 10px;
+    display: flex;
+    box-shadow: 1px 0px 10px rgb(156, 156, 156);
+}
+
+.navbar h4{
+    padding-left: 2%;
+}

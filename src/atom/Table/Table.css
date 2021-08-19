@@ -1,0 +1,23 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgb(231, 231, 231);
+}
+
+table thead{
+    background-color: rgb(0, 52, 194);
+    color: #fff;
+}
+
+table td{
+    padding-top: 1rem;
+}
+
+.tableFixHead {
+    overflow-y: auto;
+    height: 420px;
+}
+.tableFixHead thead {
+    position: sticky;
+    top: 0;
+}

@@ -1,0 +1,32 @@
+.col{
+    display: grid;
+    grid-gap: 10px;
+    background-color: #f7f2f2;
+    padding: 10px;
+}
+
+.col-2{
+    grid-template-columns: auto auto;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+
+.mb-2{
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 450px) {
+    .container {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+ }

@@ -1,0 +1,13 @@
+.form-login{
+    box-shadow: 15px 1px 15px rgb(219, 219, 219);
+    border: 1px solid rgb(219, 219, 219);
+    padding: 2rem;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.form-login:hover{
+    transition: .3s ease-in;
+    box-shadow: 10px 3px 15px rgb(189, 189, 189);
+}

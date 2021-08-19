@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+input[type="text"], input[type="date"], input[type="tel"] {
+  border: 1px solid rgb(231, 231, 231);
+  width: 30%;
+  height: 30px;
+}
+
+.form-control{
+  box-shadow: 10px 3px 15px rgb(212, 212, 212);
+  transition: .3s ease;
+}
