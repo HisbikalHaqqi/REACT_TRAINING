@@ -2,22 +2,10 @@ import Dashboard from './page/Dashboard'
 import Login from './page/Login';
 
 function App(props) {
-
-    if(props.isLogged){
-        return (
-            <div className="App">
-                <Dashboard/>
-            </div>
-        );
-    }
-    else{
-        return (
-            <div className="App">
-                <Login/>
-            </div>
-        );
-    }
-  
+    let logged = props.isLogged;
+    return(
+        logged ? <Login/> : <Dashboard/>
+   )
 }
 
 export default App;

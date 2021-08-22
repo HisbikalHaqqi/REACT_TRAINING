@@ -1,10 +1,12 @@
 import React from 'react'
 
-const Label = ({children}) => {
+const Label = (props) => {
     return (
         <div>
             <div className="Comment-text">
-                { children }
+            {
+                props.type === "title" ? <h3>{props.children} </h3> : <p>{props.children} </p>
+            }
             </div>
         </div>
     )
