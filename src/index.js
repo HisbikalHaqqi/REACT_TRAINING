@@ -2,13 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import App from './App';
+// import App from './App';
+import Todo from './atom/Todo/Todo';
+import Card from './molecul/Card/Card';
 
 ReactDOM.render(
   <React.StrictMode>
 
     {/* true or false */}
-    <App isLogged={true}/>
+    {/* <App isLogged={false}/> */}
+    {/* <Todo/> */}
+    <Card/>
   </React.StrictMode>,
   document.getElementById('root')
 );

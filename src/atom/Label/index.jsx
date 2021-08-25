@@ -5,7 +5,7 @@ const Label = (props) => {
         <div>
             <div className="Comment-text">
             {
-                props.type === "title" ? <h3>{props.children} </h3> : <p>{props.children} </p>
+                props.type === "title" ? <h6>{props.children} </h6> : <p>{props.children} </p>
             }
             </div>
         </div>
